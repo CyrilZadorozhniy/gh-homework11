@@ -1,0 +1,20 @@
+.section {
+  &-welcome {
+  min-height: calc(100vh - 55px);
+    background-image: url("../../img/welcome-section.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    .button-one {
+      position: absolute;
+      bottom: 5%;
+      right: 15%;
+    }
+  }
+  &-goods {
+    padding: 50px 5%;
+  }
+  &-lookbooks {
+
+  }
+}

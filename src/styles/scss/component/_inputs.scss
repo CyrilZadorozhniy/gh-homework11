@@ -1,0 +1,20 @@
+.input {
+  &-welcome-search {
+    margin-left: 50px;
+    margin-bottom: 0;
+    border: 1px solid #e7e7e7;
+    &:after {
+      content: "\f002";
+      font-family: FontAwesome;
+      padding: 0 10px;
+    }
+    input {
+      font-family: $montserrat;
+      background: none;
+      border: none;
+      font-size: 13px;
+      padding: 8px 10px;
+      padding-right: 0;
+    }
+  }
+}

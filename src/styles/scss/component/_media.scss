@@ -1,0 +1,125 @@
+@media (max-width:540px) {
+  .header-site {
+    .container {
+      flex-direction: column;
+      padding: 20px;
+      p {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+@media (max-width:1260px) {
+  .section-welcome {
+    padding: 0;
+  }
+  .list-lookbooks {
+    li {
+      .wrap-content {
+        p {
+          font-size: 10px;
+          color: #727272;
+          padding-left: 25%;
+        }
+        h1 {
+          text-transform: uppercase;
+          font-size:30px;
+          color: #575153;
+          &:first-child {
+            font-weight: bold;
+          }
+        }
+        button {
+          font-size:10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:1170px) {
+  .section-welcome {
+    padding:0  30px;
+  }
+  .button-toggle-menu {
+    display: block;
+  }
+  .navigation-welcome {
+    display: none;
+  }
+  .drobdown {
+    margin-left: -20%;
+  }
+  .list-lookbooks {
+    flex-direction: column;
+    align-items: center;
+    li {
+      width: calc((100%/2) - 0.8547008547008547% );
+      margin-bottom: 20px;
+    }
+  }
+}
+@media (max-width:720px) {
+  .header-site .container .link-cart{
+    margin-left: 10px;
+  }
+  .list-filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    li {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  }
+  .section-welcome {
+    padding: 0 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .section-welcome .button-one {
+    position: relative;
+    display: block;
+    bottom: auto;
+    right: auto;
+    margin: 0 auto;
+  }
+  .list-lookbooks {
+    flex-direction: column;
+    align-items: center;
+    li {
+      width: calc((100%) - 0.8547008547008547% );
+    }
+  }
+  .card-winner {
+    margin-bottom: 20px;
+    h3,p {
+      font-size: 25px;
+    }
+  }
+}
+@media (max-width:1040px) {
+  .footer-site {
+    .flex-wrap {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      ul {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .footer-site-bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .card-winner ,.card-social {
+      width: 95%;
+    }
+    .card-winner {
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.footer {
+  &-site {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    .list-drop {
+        max-width: 200px;
+    }
+    .flex-wrap {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+      .list-social {
+        a {
+          color: white;
+          font-size: 35px;
+          i {
+            -webkit-transition: .2s ;
+            -moz-transition: .2s ;
+            -ms-transition: .2s ;
+            -o-transition: .2s ;
+            transition: .2s ;
+          }
+          &:hover i {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  }
+}
